@@ -6,51 +6,53 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = [
   {
     type: "input",
-    message: "What is your project title?",
-    name: "Title",
+    message: "What is your github name?",
+    name: "name",
   },
   {
     type: "input",
-    message: "Please type a description.",
-    name: "Description",
+    message: "What is a repository name for this project?",
+    name: "title",
+  },
+
+  {
+    type: "input",
+    message: "Please describe about this project.",
+    name: "description",
   },
   {
     type: "input",
-    message: "Please provide an installation instructions.",
-    name: "Installation",
+    message: "Please describe about installation.",
+    name: "installation",
   },
   {
     type: "input",
     message: "Please provide a usage information.",
-    name: "Usage",
+    name: "usage",
   },
 
   {
     type: "input",
     message: "Please provide a contribution guidelines.",
-    name: "Contributing",
+    name: "contributing",
   },
   {
     type: "input",
-    message: "Please provide a test instructions.",
-    name: "Tests",
+    message: "Please provide how to test the program.",
+    name: "tests",
   },
   {
     type: "list",
     message:
       "Choose a license for your application from a list using allow keys.",
-    name: "License",
+    name: "license",
     choices: [
       "Apache license 2.0",
       "GNU Lesser General Public License v3.0",
       "MIT",
     ],
   },
-  {
-    type: "input",
-    message: "What is your GitHub username?",
-    name: "username",
-  },
+
   {
     type: "input",
     message: "What is your email address?",
@@ -61,13 +63,17 @@ const questions = [
 // function to write README file
 
 function writeToFile(fileName, data) {
-  fs.appendFile("README.md", JSON.stringify(response), function () {
-    console.log("You got it!");
-  });
+  // fs.appendFile("README.md", JSON.stringify(response));
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(function (response) {
+    generateMarkdown(response);
+    console.log(response);
+    writeToFile("README.md", generateMarkdown(response));
+  });
+}
 
 // function call to initialize program
 init();
