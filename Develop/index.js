@@ -1,3 +1,7 @@
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+
 // array of questions for user
 const questions = [
   {
@@ -36,6 +40,11 @@ const questions = [
     message:
       "Choose a license for your application from a list using allow keys.",
     name: "License",
+    choices: [
+      "Apache license 2.0",
+      "GNU Lesser General Public License v3.0",
+      "MIT",
+    ],
   },
   {
     type: "input",
@@ -51,7 +60,11 @@ const questions = [
 
 // function to write README file
 
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.appendFile("README.md", JSON.stringify(response), function () {
+    console.log("You got it!");
+  });
+}
 
 // function to initialize program
 function init() {}
