@@ -2,9 +2,7 @@
 
 # Title
 
-### Description
-
-{user input}Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus eius reprehenderit earum, molestiae consequatur aspernatur suscipit sed, labore libero dignissimos quam ex perspiciatis. Accusantium esse omnis quos aliquam nemo?
+**Description:** Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus eius reprehenderit earum, molestiae consequatur aspernatur suscipit sed, labore libero dignissimos quam ex perspiciatis. Accusantium esse omnis quos aliquam nemo?
 
 ## Table of Contents
 
@@ -15,7 +13,7 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation
+# Installation
 
 To install necessary independencie, use the following command:
 
@@ -43,7 +41,7 @@ To run test program, use this cmmand line.
 {node test one two three - user input}
 ```
 
-## Questions
+# Questions
 
 If you have any questions about the repo, contact me at <reporepo@gmail.com>.
 
