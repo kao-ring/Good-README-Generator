@@ -63,18 +63,17 @@ const questions = [
 // function to write README file
 
 function writeToFile(fileName, data) {
-  console.log("function ライトtoファイルだよ。");
-  console.log(fileName);
-  console.log(data);
   fs.writeFile(fileName, data, function (err) {
-    console.log("できたーーー！！");
+    if (err) {
+      console.log(err);
+    }
+    console.log("Success!");
   });
 }
 
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then(function (response) {
-    console.log(response);
     writeToFile("README.md", generateMarkdown(response));
   });
 }

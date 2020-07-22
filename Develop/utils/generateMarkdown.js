@@ -1,10 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("function ジェネレートマークダウンだよ。");
-  return `![](https://img.shields.io/github/license/${data.name}/${data.title}?style=plastic&logo=appveyor);
-  # ${data.title};
+  return `
+  # ${data.title}
+  
+  **Description:** ${data.description}
 
-  **Description:** ${data.description};
+  ![](https://img.shields.io/github/license/${data.name}/${data.title}?style=plastic&logo=appveyor)
 
   ## Table of Contents 
 
@@ -17,7 +18,7 @@ function generateMarkdown(data) {
 
  ## Installation
 
-${data.install}
+${data.installation}
 
 ## Usage
 
