@@ -35,7 +35,7 @@ ${data.contributing}
 ## Tests
 
 To run test program, use the following command line.
-${data.test}
+${data.tests}
 
 ## Questions
 

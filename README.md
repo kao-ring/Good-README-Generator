@@ -2,7 +2,7 @@
 
 **Description:** When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
-![Untitled_ Jul 22, 2020 7_32 PM (1)](https://user-images.githubusercontent.com/66850293/88239815-6e1d7e80-cc53-11ea-93f4-9502ff364023.gif)
+![Untitled_ Jul 22, 2020 8_20 PM](https://user-images.githubusercontent.com/66850293/88241827-4b8e6400-cc59-11ea-8b1e-be27f0e0dacf.gif)
 
 ![](https://img.shields.io/github/license/kao-ring/Good-README-Generator?style=plastic&logo=appveyor)
 

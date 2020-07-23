@@ -1,9 +1,9 @@
 
-  # Good-README-Generator
+  # qwe
   
-  **Description:** When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+  **Description:** qwe
 
-  ![](https://img.shields.io/github/license/kao-ring/Good-README-Generator?style=plastic&logo=appveyor)
+  ![](https://img.shields.io/github/license/qwe/qwe?style=plastic&logo=appveyor)
 
   ## Table of Contents 
 
@@ -16,29 +16,29 @@
 
  ## Installation
 
-Make a clone from my repo using `git clone` and then install dependencies with `npm install inquirer --save` from Terminal or Bash.
+qwe
 
 ## Usage
 
-Run this program using `node index` and answer questions on your terminal. After all questions, when you see "Success!" On your screen, generated README file is in your folder.
+qwe
 
 ## License
 
-This project is licensed under the MIT.
+This project is licensed under the Apache license 2.0.
 
 ## Contributing
 
-Fork this repo, Clone this repo to your local. HACK AWAY! Create a new pull request
+qwe
 
 ## Tests
 
 To run test program, use the following command line.
-undefined
+qwe
 
 ## Questions
 
-If you have any questions about the repo, contact me at <kao.ring@yahoo.com>.
+If you have any questions about the repo, contact me at <qwe>.
 
-You can find more of my work at [kao-ring](https://github.com/kao-ring).
+You can find more of my work at [qwe](https://github.com/qwe).
   
   
